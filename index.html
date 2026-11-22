@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web page</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <h1>Text Formating Tags</h1>
+    <p align="justify">
+        <b>Lorem </b>ipsum dolor sit amet consectetur adipisicing elit. Facere, quod! Sequi voluptate, beatae aspernatur, cumque quidem cupiditate quas unde ullam corrupti, nesciunt nemo repellendus ex aliquam? Esse repellat voluptatibus repellendus?
+    </p>
+    <h2>Italic, Bold, strong, small, typywriting text format,Underline Text, pre tag, break tag, List Tag,Marquee Tag, form element:</h2>
+        <i>This is italic text.</i>
+        <b>This is bold text.</b>
+        <strong>This is strong text.</strong>
+        <small>This is small text.</small>
+        <tt>This is teletype text.</tt>
+        <u>This is underlined text.</u>
+        <h2>Subscript and Superscript</h2>
+        <h3>H<sub>2</sub>O</h3>
+        <h3>E = mc<sup>2</sup></h3>
+        <pre>Hello, Team!
+            My Name is Deepika </pre>
+        <h2>Break Tag</h2>
+        <font face="Arial"  size='2' color="Blue">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>, quod! Sequi voluptate, beatae aspernatur, cumque quidem cupiditate quas unde ullam corrupti, nesciunt nemo repellendus ex aliquam? Esse repellat voluptatibus repellendus?
+        </p>
+        </font>
+        <h2>Image Tag</h2>
+        <img src="Images/pexels-souvenirpixels-414612.jpg" alt="No Image" height="250px" width="400px">
+
+        <h2>Table Tag</h2>
+        <table border="4px" cellpadding="10px" cellspacing="10px">
+            <tr>
+                <th colspan="3" align="center" >Student Information</th>
+            </tr>
+            <tr>
+                <th>SNo</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>John</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jane</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Bob</td>
+                <td>35</td>
+            </tr>
+        </table>
+
+        <h2>List Tag</h2>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+
+
+        <h2>Marquee Tag</h2>
+
+        <!--
+        Scrolling Text
+        Slide
+        alternate
+
+        Directions:left,right,up,down
+        scrollamount:1-10
+        scrollDelay:1-10
+        Loop:1-10
+        -->
+
+            <marquee bgcolor="lightgray" width="400px" height="20px" behavior="alternate" direction="right" scrollamount="10" loop="3">
+                Welcome to My First Web Page!
+            </marquee><br>
+
+            <marquee direction="right" scrollamount="50">
+             <img src="images/walking-man-8068170-6451396.gif" alt="No image" height="200px" width="400">
+           </marquee>
+
+           <h2>Anchor Tag</h2>
+           <a href="https://www.linkedin.com/feed/" target="_blank">Visit Linkedin</a>
+
+
+           <h2>Form Element Tag</h2>
+           <fieldset>
+            <legend>Registration form </legend>
+            <form>
+                <label>Name:</label>
+                <input type="text">
+                <br
+                <label>password:</label>
+                <input type="password"><br>
+
+                <lable>Select Course</lable>
+                  <select>
+                    <option value="1">C program</option>
+                    <option value="2">Python</option>
+                    <option value="3">C++</option>
+                    <option value="4">Java</option>
+                </select>
+            </form>
+
+                <select multiple>
+                    <option value="1">C program</option>
+                    <option value="2">Python</option>
+                    <option value="3">C++</option>
+                    <option value="4">Java</option>
+                </select>
+                <br>
+                <label>Date</label>
+                <input type="date">
+                <br>
+                <textarea cols="30" rows="5"></textarea>
+
+                <!-- Grender -use Radio Button-->
+                 <lable>Select Gender</lable>
+                 <input type="radio">male
+                 <input type="radio">female
+                 <br>
+                 <label>Select Gender</label>
+                 <input type="radio" name="gen">male
+                 <input type="radio" name="gen">female
+                 <br>
+                 <input type="checkbox">I agree
+
+                 <br>
+                 <label>Upload single File</label>
+                 <input type="file">
+                 
+                 <br>
+                 <label>Upload Multiple files</label>
+                 <input type="file" multiple>
+                 <br>
+                 <!-- For color pic-->
+                <label>Pic One Color</label>
+                <input type="color">
+                <!-- For Range-->
+                 <br>
+                 <label>Choose Range</label>
+                 <input type="range">
+                </form>
+           </fieldset>
+
+    </body>
+
+</html>
