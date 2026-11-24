@@ -1,0 +1,4 @@
+/* Types of CSS --Inline CSS, Internal CSS, External CSS */
+
+/* Inline css---The way of adding styles directly to an HTML element by using the (style) attribute */
+h1{ color:blue; font-size: 30px;}
