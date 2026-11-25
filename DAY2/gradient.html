@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Gradient</title>
+    <style>
+        div{
+            width: 600px;
+            height: 400px;
+            background-color: lightblue;
+            background: linear-gradient(green,gray,skyblue);
+            background: linear-gradient(to left,#ff6699,#ffccff,#ccccff);
+            background: linear-gradient(to bottom right, #ff6699, #ffccff, #ccccff);
+            background: linear-gradient(45deg, #ff6699, #ffccff, #ccccff);
+             background: linear-gradient(-45deg, #ff6699, #ffccff, #ccccff);
+             background: repeating-linear-gradient(#ff6699, #ffccff 10%, #ccccff 20%);
+            background: radial-gradient(#ccccff,#ff6699 15%,#ffccff 60%);
+             background: radial-gradient(circle, #ccccff,#ff6699,#ffccff);
+             background: radial-gradient(closest-side at 80% 50%, #ccccff,#ff6699,#ffccff);
+             background: radial-gradient(farthest-side at 20% 50%, #ccccff,#ff6699 ,#ffccff );
+             background: repeating-radial-gradient(circle, #ccccff,#ff6699 15%,#ffccff 60%);
+             background-image:conic-gradient( #ccccff,#ff6699,#ffccff ,#ccccff,#a4667b);
+             border-radius: 50%;
+            background: conic-gradient(from 90deg, #ccccff,#ff6699 ,#ffccff, #ccccff,#a4667b); 
+            background-image: repeating-conic-gradient( #ccccff 10%,#ff6699 20%,#ffccff , #ccccff,#a4667b); 
+        }
+    </style>
+</head>
+<body>
+    <h1>Background Gradient</h1>
+    <div> 
+    </div>
+</body>
+</html>
