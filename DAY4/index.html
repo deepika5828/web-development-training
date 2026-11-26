@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position properties</title>
+</head>
+<style>
+    .main{
+       
+        border:5px solid black;
+        min-height: 500px;
+        width: 500px;
+        position: relative;
+    }
+    .box{
+        width: 100px;
+        height: 150px;
+    }
+    .box1{background-color: teal; position: relative; top: 20px;}
+    .box2{background-color: aqua;}
+    .box3{background-color: thistle; position: absolute; bottom:0;}
+</style>
+<body>
+    <h2>Positioning In CSS</h2>
+    <div class="main">
+    <div class="box1 box">Box1</div>
+    <div class="box2 box">Box2</div>
+    <div class="box3 box">Box3</div>
+    </div>
+</body>
+</html>

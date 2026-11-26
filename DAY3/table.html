@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table display</title>
+    <style>
+        .table{
+            display: table;
+            margin-top: 100px;
+            margin-left: 100px;
+            width: 600px;
+            border: 1px solid red;
+        }
+        .row{
+            display: table-row;
+        }
+        .col{
+            display: table-cell;
+            border: 1px solid red;
+            padding: 10px 30px;
+        }
+
+        .header{
+            font-weight: bold;
+            color: black;
+            text-align: center;
+            background-color: pink;
+
+            display: table-header-group;
+        }
+        .footer{
+            display: table-footer-group;
+        }
+   
+         .caption{
+            display: table-caption;
+            text-align: center;
+            color: green;
+            font-weight: 500;
+            padding: 2 0px;
+            
+         }
+    </style>
+</head>
+<body>
+    
+   <div class="table">
+    <div class="caption">All Student Details</div>
+    <div class="header">
+    <div class="row">
+    <div class="col">Name</div>
+    <div class="col">Age</div>
+    <div class="col">city</div>
+    </div>
+    </div>
+
+    <div class="row">
+    <div class="col">Ram</div>
+    <div class="col">23</div>
+    <div class="col">salem</div>
+    </div>
+
+   <div class="row">
+   <div class="col">Ramiya</div>
+   <div class="col">25</div>
+   <div class="col">erode</div>
+   </div>
+
+<div class="footer">
+<div class="col">santhiya</div>
+<div class="col">32</div>
+<div class="col">cbe</div>
+</div>
+</div>
+</div>
+</body>
+</html>
